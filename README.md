@@ -39,11 +39,11 @@ responsive
 ik ga https://splice.com namaken.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+homepage splice  
 <img src="./images/splice-home.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+inlogscherm splice  
 <img src="./images/splice-signup.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
