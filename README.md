@@ -44,7 +44,7 @@ homepage splice
 
 #### Screenshot(s) van de tweede pagina (small screen):
 inlogscherm splice  
-<img src="./images/splice-signup.png" width="375px" alt="omschrijving van de pagina">
+<img src="./images/" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
