@@ -40,7 +40,7 @@ ik ga https://splice.com namaken.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 homepage splice  
-<img src="./images/splice-home.png" width="375px" alt="omschrijving van de pagina">
+<img src="./images/homesplicescreenshot.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 inlogscherm splice  
@@ -58,7 +58,12 @@ inlogscherm splice
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/homesplice1.png" alt="1 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/homesplice2.png" alt="2 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/homesplice3.png" alt="3 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/homesplice4.png" alt="4 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/homesplice5.png" alt="5 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/homesplice6.png" alt="6 van de 6 afbeeldingen van de breakdown van het startscherm">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
