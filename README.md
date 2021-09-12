@@ -73,11 +73,14 @@ inlogscherm splice
 <img src="images/breakdown_plugins5.png" alt="5 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 <img src="images/breakdown_plugins6.png" alt="6 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### navigatie: 
+<img src="images/breakdown_navigatie.png" width="375px" alt="breakdown van de navigatie">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### dropdown: 
+<img src="images/breakdown_dropdown.png" width="375px" alt="breakdown van het dropdown-menu">
+
+### dropdown: 
+<img src="imgages/breakdown_form.png" width="375px" alt="breakdown van het zoekveld">
 
 </details>
 
