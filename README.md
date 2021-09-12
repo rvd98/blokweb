@@ -1,4 +1,4 @@
-# Procesverslag
+  # Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -40,11 +40,11 @@ ik ga https://splice.com namaken.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 homepage splice  
-<img src="./images/homesplicescreenshot.png" width="375px" alt="omschrijving van de pagina">
+<img src="./images/splice_home_screenshot.png" width="375px" alt="de home-page van splice.com">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 inlogscherm splice  
-<img src="./images/" width="375px" alt="omschrijving van de pagina">
+<img src="./images/splice_plugins_screenshot.png" width="375px" alt="de plug-in-page van splice.com">
  
 </details>
 
@@ -57,13 +57,21 @@ inlogscherm splice
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/homesplice1.png" alt="1 van de 6 afbeeldingen van de breakdown van het startscherm">
-<img src="images/homesplice2.png" alt="2 van de 6 afbeeldingen van de breakdown van het startscherm">
-<img src="images/homesplice3.png" alt="3 van de 6 afbeeldingen van de breakdown van het startscherm">
-<img src="images/homesplice4.png" alt="4 van de 6 afbeeldingen van de breakdown van het startscherm">
-<img src="images/homesplice5.png" alt="5 van de 6 afbeeldingen van de breakdown van het startscherm">
-<img src="images/homesplice6.png" alt="6 van de 6 afbeeldingen van de breakdown van het startscherm">
+### de eerste pagina: 
+<img src="images/breakdown_home1.png" alt="1 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/breakdown_home2.png" alt="2 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/breakdown_home3.png" alt="3 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/breakdown_home4.png" alt="4 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/breakdown_home5.png" alt="5 van de 6 afbeeldingen van de breakdown van het startscherm">
+<img src="images/breakdown_home6.png" alt="6 van de 6 afbeeldingen van de breakdown van het startscherm">
+
+### de tweede pagina: 
+<img src="images/breakdown_plugins1.png" alt="1 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
+<img src="images/breakdown_plugins2.png" alt="2 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
+<img src="images/breakdown_plugins3.png" alt="3 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
+<img src="images/breakdown_plugins4.png" alt="4 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
+<img src="images/breakdown_plugins5.png" alt="5 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
+<img src="images/breakdown_plugins6.png" alt="6 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
