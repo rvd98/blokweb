@@ -79,7 +79,7 @@ inlogscherm splice
 ### dropdown: 
 <img src="images/breakdown_dropdown.png" width="375px" alt="breakdown van het dropdown-menu">
 
-### dropdown: 
+### form: 
 <img src="images/breakdown_form.png" width="375px" alt="breakdown van het zoekveld">
 
 </details>
