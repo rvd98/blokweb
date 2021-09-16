@@ -100,6 +100,13 @@ veel tijd bij het schrijven van de HTML.
 Ik heb tot nu toe alleen de HTML geschreven, maar veel afbeeldingen ontbreken nog. 
 Ik ben nog nergens tegenaan gelopen, omdat ik nog niet aan het CSS bestand ben begonnen.
 
+#### Screenshots HTML
+<img src="images/voortgang1-screenshot1.png" width="375px" alt="HTML home-page">
+<img src="images/voortgang1-screenshot2.png" width="375px" alt="HTML plugin-page">
+
+Ik probeer na het inleveren van dit document om 18:00 (19-09-21) nog aan de CSS te beginnen.
+Dus wellicht heb ik morgen ook al wat gestijld.
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
