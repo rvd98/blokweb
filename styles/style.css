@@ -1,5 +1,11 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
 
+nav {
+  position: fixed;
+  left: -100%;
+}
