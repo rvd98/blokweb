@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
@@ -32,7 +32,7 @@ responsive
 
 ## Je website
 
-<details open>
+<details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
@@ -136,7 +136,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
 <summary>De HTML is helemaal af en ik ben begonnen met stijlen. Ik heb de header en de hero nu gestijld,
 maar loop vast bij een scrollbare ul die niet "snapt"  en twee elementen die ik naast elkaar moet plaatsen.</summary>
 

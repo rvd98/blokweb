@@ -7,6 +7,9 @@
 --almost-white: #FAFAFB;
 --font-white: #fff;
 --font-black: #000;
+--font-greygreen: #818A83;
+--font-greyblue: #63656D;
+--grey-light: #E5E5E8;
 }
 
 *, *::after, *::before {
@@ -18,8 +21,12 @@
 
 h2 {
   font-size: 1.3em;
-  margin-top: 2.3em;
+  margin-top: 1.5em;
 }
+
+
+
+
 
 /*####################################
 ############### HEADER ###############
@@ -31,6 +38,9 @@ header {
   align-items: center;
   gap: .8em;
   padding-left: 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 header a {
@@ -53,6 +63,10 @@ nav {
   left: -100%;
 }
 
+
+
+
+
 /*####################################
 ###### SECTION 1: GOOD MORNING #######
 ####################################*/
@@ -62,7 +76,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   height: 300px;
-  padding: 0 1.5em 0 1.5em;
+  padding: 0 1.2em 0 1.2em;
   
 }
 .hero h1 {
@@ -84,42 +98,228 @@ nav {
   max-width: 100%;
 }
 
+
+
+
+
 /*####################################
 ### SECTION 2: DISCOVER NEW SOUNDS ###
 ####################################*/
 .new {
-  margin-left: 1.5em;
   position: relative;
+  padding: 1.2em;
 }
+
 
 .new h3 {
   margin-top: 1em;
   font-size: 1.3em;
+  display: inline-block;
+  margin-right: .5em;
 }
 
 .new h3 + a {
   text-decoration: none;
   color:var(--main-blue);
   font-size: .9em;
+
 }
 
 .new ul {
   display: flex;
   gap: 2em;
   overflow-x: auto;
-  scroll-snap-type: x proximity;
+  scroll-snap-type: x mandatory;
   overscroll-behavior: none;
   list-style-type: none;
-  margin-left: 1em;
+  margin: 2.5em 0 0 0;
+  padding: 0 1em;
 
 }
 
 .new li {
   width: 180px;
-  display: flex;
-  order: 1;
+  scroll-snap-align: start;
+  padding-left: 1em;
 }
 
-.new img {
+.new h4 {
+  font-size: .9em;
+  font-weight: 500;
+  color:var(--header-color);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.new p {
+  font-size: .9em;
+  font-weight: 400;
+  color:var(--font-greygreen);
+}
+
+.new p + p {
+  color:var(--font-greyblue);
+  padding-top: 2em;
+}
+.new li a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.new li img {
   width: 148px;
+  order: -1;
+  padding-bottom: 1em;
+}
+
+
+
+
+
+/*####################################
+######### SECTION 3: APP AD ##########
+####################################*/
+.app {
+  padding: 1.2em;
+  position: relative;
+  background: repeating-radial-gradient(circle at top left, crimson 0%, crimson 50%, blue 50%, blue 90%);
+              
+}
+
+.app img {
+  width:100%;
+  border-radius: 3%;
+}
+
+
+
+
+
+/*####################################
+######### SECTION 4: POPULAR #########
+####################################*/
+.popular {
+  padding: 1.2em;
+}
+
+.popular h2 {
+  margin-top: 1em;
+  font-size: 1.3em;
+  display: inline-block;
+  margin-right: .5em;
+}
+
+.popular h2 + a {
+  text-decoration: none;
+  color:var(--main-blue);
+  font-size: .9em;
+}
+
+.popular ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  counter-reset: popular;
+}
+
+.popular ol li {
+  counter-increment: popular;
+  border-bottom: solid 1px var(--grey-light);
+
+
+}
+
+.popular li a {
+  display:grid;
+  grid-template-columns: 3em 3em 1fr;
+  grid-template-rows: 50% 50%;
+  text-decoration: none;
+  
+  color: black;
+}
+
+.popular a img {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  width: 100%;
+}
+
+.popular a h3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  font-size: .9em;
+  padding: 0.4em 0 0 0;
+}
+
+.popular ol li:nth-child(2) a h3 {
+  text-transform: uppercase;
+}
+
+.popular a h3:active {
+  text-decoration: underline;
+}
+
+.popular a p {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  margin: 0;
+
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.popular li a::before {
+  content: counter(popular);
+  font-size: 2em;
+  justify-self: center;
+  align-self: center;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+
+
+
+/*####################################
+######### SECTION 5: EXPLORE #########
+####################################*/
+
+
+
+
+
+/*####################################
+####### SECTION 6: ANNOUNCEMENT ######
+####################################*/
+
+
+
+
+
+/*####################################
+########## SECTION 7: TIPS ###########
+####################################*/
+
+
+
+
+
+/*####################################
+############### FOOTER ###############
+####################################*/
+footer img {
+  width: 2em;
 }
