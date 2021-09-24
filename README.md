@@ -141,7 +141,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 maar loop vast bij een scrollbare ul die niet "snapt"  en twee elementen die ik naast elkaar moet plaatsen.</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Hun website:
+<img src="images/voortgang2-1.png" alt="splice home">
+
+Mijn versie:
+<img src="images/voortgang2-2.png" alt="splice home remake">
 
 
 ### Agenda voor meeting
