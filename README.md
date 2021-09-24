@@ -122,7 +122,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
+- Ik heb veel vragen gesteld over de structuur van mijn HTML. Die klopt nu na de feedback bijna volledig. 
+  Er missen alleen nog een paar afbeeldingen.
 - punt 2
 - nog een punt
 - ...
@@ -136,7 +137,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>De HTML is helemaal af en ik ben begonnen met stijlen. Ik heb de header en de hero nu gestijld,
+maar loop vast bij een scrollbare ul die niet "snapt"  en twee elementen die ik naast elkaar moet plaatsen.</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -145,12 +147,14 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Rick           | Esther             | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Een a naast een| header animatie    | en ik dit    | en dan ik dat    |
+| h3 plaatsen    | dit als er tijd i= | nog een punt | dit wil ik zeker |
+|zonder container| ...               | ...          | ...              |
+| &              |
+|order veranderen|
+| van li's items |
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
