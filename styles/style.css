@@ -9,7 +9,9 @@
 --font-black: #000;
 --font-greygreen: #818A83;
 --font-greyblue: #63656D;
+--font-grey: #81838a;
 --grey-light: #E5E5E8;
+--footer-grey: #a6a8ad;
 }
 
 *, *::after, *::before {
@@ -17,11 +19,6 @@
   margin: 0;
   padding: 0;
   font-family: 'roboto', 'sans-serif';
-}
-
-h2 {
-  font-size: 1.3em;
-  margin-top: 1.5em;
 }
 
 
@@ -59,10 +56,54 @@ header button {
 }
 
 nav {
-  position: fixed;
-  left: -100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:var(--header-color);
+  height: 667px;
+  width: 250px;
+
+  transform: translateX(-100%);
+  transition:.5s;
 }
 
+nav.toonNav {
+  transform: translateX(0%);
+}
+
+nav > a {
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: none;
+  padding: 1.2em;
+  color:var(--footer-grey);
+  
+}
+
+nav a h2 {
+  color:var(--font-white);
+  font-size: 1.3em;
+}
+
+nav a img {
+  order: -1;
+  width: 3em;
+  border: solid 3px var(--footer-grey);
+  border-radius: 2em;
+  margin-right: .8em;
+}
+
+nav ul:first-of-type {
+  margin-bottom: 4em;
+}
+nav ul li {
+  margin: 0 0 1em 1.2em;
+  list-style: none;
+}
+nav li a {
+  color:var(--footer-grey);
+  text-decoration: none;
+}
 
 
 
@@ -101,7 +142,6 @@ nav {
 
 
 
-
 /*####################################
 ### SECTION 2: DISCOVER NEW SOUNDS ###
 ####################################*/
@@ -110,6 +150,10 @@ nav {
   padding: 1.2em;
 }
 
+.new h2 {
+  font-size: 1.3em;
+  margin-top: 1.5em;
+}
 
 .new h3 {
   margin-top: 1em;
@@ -132,15 +176,17 @@ nav {
   scroll-snap-type: x mandatory;
   overscroll-behavior: none;
   list-style-type: none;
-  margin: 2.5em 0 0 0;
+  margin: 1.5em 0 1em 0;
   padding: 0 1em;
-
 }
 
 .new li {
   width: 180px;
   scroll-snap-align: start;
-  padding-left: 1em;
+  padding: 1em;
+  background-color:var(--almost-white);
+  border-radius: .5em;
+  margin-right: -1.5em;
 }
 
 .new h4 {
@@ -162,11 +208,13 @@ nav {
   color:var(--font-greyblue);
   padding-top: 2em;
 }
+
 .new li a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
+
 .new li img {
   width: 148px;
   order: -1;
@@ -176,24 +224,77 @@ nav {
 
 
 
-
 /*####################################
 ######### SECTION 3: APP AD ##########
 ####################################*/
 .app {
+  margin: 1.2em;
   padding: 1.2em;
   position: relative;
   background: repeating-radial-gradient(circle at top left, crimson 0%, crimson 50%, blue 50%, blue 90%);
-              
+  border-radius: .5em;
+  height: 369.6px;
+  color:var(--font-white);
+  text-align: center;     
 }
 
 .app img {
-  width:100%;
-  border-radius: 3%;
+  width: 125px;
+  position: absolute;
+  bottom: .03em;
+  right: 35%;
 }
 
+.app h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  font-size: smaller;
+  letter-spacing: .05em;
+  margin: 2.5em 0 .8em 0;
+}
 
+.app h3 {
+  font-family: 'Archivo Black', 'Roboto';
+  letter-spacing: -.05em;
+  text-align: center;
+  margin-bottom: 1.3em;
+}
 
+.app a:nth-of-type(1) {
+  text-decoration: none;
+  color:var(--font-black);
+  background-color:var(--background-color);
+  padding: .4em 1em;
+  border-radius: 2em;
+  font-size: .92em;
+  font-weight: 400;
+  letter-spacing: .03em;
+  margin-right: .3em;
+}
+
+.app a:nth-of-type(2) {
+  text-decoration: none;
+  color:var(--font-white);
+  padding: .4em 1em;
+  border-radius: 2em;
+  font-size: .92em;
+  font-weight: 400;
+  border: solid 1px var(--font-white);
+}
+
+.app button {
+  position: absolute;
+  background-color:var(--background-color);
+  color:var(--font-black);
+  font-weight: 600;
+  border-radius: 2em;
+  right: .6em;
+  top: .6em;
+  border: none;
+  width: 1.8em;
+  height: 1.8em;
+}
 
 
 /*####################################
@@ -204,10 +305,9 @@ nav {
 }
 
 .popular h2 {
-  margin-top: 1em;
   font-size: 1.3em;
   display: inline-block;
-  margin-right: .5em;
+  margin: .4em .5em .9em 0;
 }
 
 .popular h2 + a {
@@ -220,15 +320,12 @@ nav {
   margin: 0;
   padding: 0;
   list-style: none;
-
   counter-reset: popular;
 }
 
 .popular ol li {
   counter-increment: popular;
   border-bottom: solid 1px var(--grey-light);
-
-
 }
 
 .popular li a {
@@ -236,15 +333,13 @@ nav {
   grid-template-columns: 3em 3em 1fr;
   grid-template-rows: 50% 50%;
   text-decoration: none;
-  
-  color: black;
+  color:var(--font-black);
 }
 
 .popular a img {
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: 3;
-
   width: 100%;
 }
 
@@ -255,7 +350,7 @@ nav {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-weight: normal;
+  font-weight: 500;
   font-size: .9em;
   padding: 0.4em 0 0 0;
 }
@@ -272,22 +367,19 @@ nav {
   grid-column-start: 3;
   grid-row-start: 2;
   margin: 0;
-
   font-size: 0.8em;
-  font-weight: lighter;
+  font-weight: 400;
+  color:var(--font-greygreen)
 }
 
 .popular li a::before {
   content: counter(popular);
-  font-size: 2em;
   justify-self: center;
   align-self: center;
-
   grid-row-start: 1;
   grid-row-end: 3;
-
-  font-size: 0.8em;
-  font-weight: lighter;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
 
@@ -296,30 +388,197 @@ nav {
 /*####################################
 ######### SECTION 5: EXPLORE #########
 ####################################*/
+.explore {
+  text-align: center;
+  background-color:var(--almost-white);
+  margin: 3em 1.2em 5em 1.2em;
+  padding: 1.5em 2em 3.3em 2em;
+  border-radius: .3em;
+}
 
+.explore h2 {
+  margin-bottom: .5em;
+  font-size: 1.3em;
+}
+
+.explore p {
+  font-size: 1em;
+  letter-spacing: .03em;
+  margin-bottom: 2.3em;
+}
+
+.explore a {
+  background-color:var(--main-blue);
+  color:var(--font-white);
+  font-weight: 700;
+  text-decoration: none;
+  padding: .9em 2em;
+  border-radius: 2em;
+  font-size: 1.1em;
+}
 
 
 
 
 /*####################################
-####### SECTION 6: ANNOUNCEMENT ######
+########## SECTION 6: TIPS ###########
 ####################################*/
+.tutorials {
+  background-color:var(--almost-white);
+  border-top: solid 1px var(--grey-light);
+  padding: 1.2em;
+}
 
+.tutorials h2 {
+  font-size: 1.3em;
+  margin-bottom: 1.7em;
+}
+
+.tutorials li {
+  list-style: none;
+}
+
+.tutorials a {
+  text-decoration-line: none;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 1.2em;
+  background-color:var(--background-color);
+  border-radius: .3em;
+  box-shadow: 2px 2px 3px var(--grey-light);
+}
+
+.tutorials h3 {
+  font-size: 1em;
+  color:var(--font-black);
+  padding: 0 1.2em;
+  margin-bottom: .7em;
+}
+
+.tutorials h3 span {
+  text-transform: uppercase;
+}
+
+.tutorials img {
+  width: 100%;
+  order: -1;
+  border-radius: .3em .3em 0 0;
+  margin-bottom: 1.3em;
+}
+
+.tutorials p {
+  font-size: .8em;
+  color:var(--font-grey);
+  padding: 0 1.2em;
+  letter-spacing: .04em;
+  margin-bottom: 2.2em;
+}
 
 
 
 
 /*####################################
-########## SECTION 7: TIPS ###########
+####### SECTION 7: ANNOUNCEMENT ######
 ####################################*/
+.announcement {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 7em 1.2em 0 1.2em;
+  text-align: center;
+}
+
+.announcement h2 {
+  font-size: 1.3em;
+  margin-bottom: .6em;
+}
+
+.announcement p:first-of-type {
+  font-size: 3em;
+  order: -1;
+  margin-bottom: .2em;
+}
+
+.announcement p {
+  font-size: 1em;
+  color:var(--font-grey);
+  margin-bottom: 3em;
+}
+
+.announcement div {
+  height: 120px;
+  width: 2px;
+  background-color:var(--grey-light);
+  align-self: center;
+  margin-bottom: 2em;
+}
 
 
 
 
+/*####################################
+########### SECTION 8: TIPS ##########
+####################################*/
+.tips {
+  margin: 1.2em;
+  padding: 8em 3em 6em 3em;
+  background-color:var(--almost-white);
+  text-align: center;
+  border-radius: .5em;
+}
 
+.tips h2 {
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color:var(--font-grey);
+  letter-spacing: .07em;
+  margin-bottom: 1.5em;
+}
+
+.tips blockquote {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.tips p {
+  color:var(--font-greyblue);
+}
 /*####################################
 ############### FOOTER ###############
 ####################################*/
-footer img {
-  width: 2em;
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 8em;
+}
+
+footer p {
+  font-size: .9em;
+  color:var(--footer-grey);
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 auto;
+}
+
+footer li {
+  margin-left: 1em;
+  list-style: none;
+}
+
+footer li img:nth-of-type(1) {
+  width: 1em;
+}
+
+footer li img:nth-of-type(2) {
+  width: 1.1em;
+}
+
+footer li img:nth-of-type(3) {
+  width: 1.5em;
 }
