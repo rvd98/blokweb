@@ -1,4 +1,4 @@
-  # Procesverslag
+# Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -136,7 +136,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
 <summary>De HTML is helemaal af en ik ben begonnen met stijlen. Ik heb de header en de hero nu gestijld,
 maar loop vast bij een scrollbare ul die niet "snapt"  en twee elementen die ik naast elkaar moet plaatsen.</summary>
 
@@ -213,21 +213,21 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De eerste pagina is helemaal gereed voor telefoon. Nu moet ik het responsive gaan maken, maar ik weet niet zo goed waar ik moet starten.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Rick           | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Waar begin ik  | en dit             | en ik dit    | en dan ik dat    |
+| met het respon-| dit als er tijd is | nog een punt | dit wil ik zeker |
+| sive maken     | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
