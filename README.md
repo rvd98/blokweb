@@ -237,7 +237,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De website responsive maken ging deels goed. Ik zeg deels omdat ik maar één van de twee pagina's af heb gekregen en omdat ik niet snapte hoe ik mijn hamburgermenu bij groot beeld in een rij in mijn header kon zetten.
+
+Ik ben wel trots op een ol die ik op klein scherm in één lange lijst van 10 heb en op groot scherm twee lijstjes van 5. En ook over de responiveness van de cards bij de sectie tips & tutials ben ik trots.
+
+De lijst:
+<img src="./images/langelijst" alt="lijst van 10">
+<img src=".images/tweelijsten" alt="twee lijstjes van 5 naast elkaar">
+
+Ik ben minder trots op de tweede pagina: de plugin-pagina. Door een slechte planning, gebrek aan motivatie en het onderschatten van de hoeveelheid werk dat het is, heb ik het niet afgekregen.
+
+<img src=".images/plugins_onafgemaakt" alt="schermopname van onafgemaakte plugin pagina">
 
 ### Screenshot(s)
 
