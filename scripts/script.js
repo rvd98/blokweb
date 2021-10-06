@@ -5,7 +5,7 @@ var hamburgerButton = document.querySelector("header button");
 function klapUit(){
     let deNav = document.querySelector("nav");
 
-    deNav.classList.add("toonNav");
+    document.body.classList.add("toonNav");
 }
 hamburgerButton.addEventListener("click", klapUit);
 
@@ -15,7 +15,7 @@ var mainButton = document.querySelector("main");
 function klapIn(){
     let deNav = document.querySelector("nav");
 
-    deNav.classList.remove("toonNav");
+    document.body.classList.remove("toonNav");
 }
 mainButton.addEventListener("click", klapIn);
 // CLOSING THE APP ADVERTISEMENT

@@ -10,12 +10,15 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="./images/splice-favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@700;800&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
     <header>
 		<button>
-			<img src="/images/nav/borgir.png" alt="hamburger-menu">
+			<img src="./images/nav/borgir.png" alt="hamburger-menu">
 		</button>
 		<nav>
 			<a href="">
@@ -40,21 +43,29 @@
 		<a href="index.html">
 			<img src="./images/nav/splice-white.png" alt="splice logo">
 		</a>
-        <a href="">
-            <img src="./images/nav/search.png" alt="search">
-        </a>
-		<a href="./images/nav/message.png">
-			<img src="" alt="message">
-		</a>
+
+        <div>
+            <a href="">
+                <img src="./images/nav/search.png" alt="search">
+            </a>
+
+            <a href="">
+                <img src="./images/nav/message.png" alt="message">
+            </a>
+        </div>
+
 	</header>
 
 
     <main>
-        <section>
+        <section class="browse">
             <button>
                 <p>Browse</p>
                 <img src="" alt="">
             </button>
+        </section>
+        
+        <section class="highlight">
             <a href="">
                 <h1>FX Collection 2</h1>
                 <h2>Arturia</h2>
@@ -66,18 +77,36 @@
                     in the hands of musicians and producers 
                     of all styles and abilities.</p>
                 <p>Try for free</p>
-                <img src="./images/bunch-of-synthesizers.jpg" alt="synthesizers">
+                <img src="./images/plugins/bunch-of-synthesizers.jpg" alt="synthesizers">
             </a>
         </section>
 
-        <section>
+        <section class="free">
             <h2>Free Plugins</h2>
             <a href="">View All</a>
             <ul>
                 <li>
                     <a href="">
-                        <h3>PanCake</h3>
+                        <h3>ott</h3>
+                        <img src="./images/plugins/freeplugins/ott.jpg" alt="">
+                        <p>Dynamics</p>
                         <img src="" alt="">
+                        <p>Xfer Records</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>span</h3>
+                        <img src="./images/plugins/freeplugins/span.jpg" alt="">
+                        <p>Utility</p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>PanCake</h3>
+                        <img src="./images/plugins/freeplugins/pancake.jpg" alt="">
                         <p>Panning, Imaging</p>
                         <img src="" alt="">
                         <p>Cableguys</p>
@@ -85,72 +114,144 @@
                 </li>
                 <li>
                     <a href="">
-                        <h3>DJMFilter</h3>
+                        <h3>Dimension Expander</h3>
+                        <img src="./images/plugins/freeplugins/dimensionexpander.png" alt="">
+                        <p>Chorus, Modulators</p>
                         <img src="" alt="">
+                        <p>Xfer Records</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>DJMFilter</h3>
+                        <img src="./images/plugins/freeplugins/djmfilter.jpg" alt="">
                         <p>Filter, High-Pass</p>
                         <img src="" alt="">
                         <p>Xfer Records</p>
                     </a>
                 </li>
+                <li>
+                    <a href="">
+                        <h3>msed</h3>
+                        <img src="./images/plugins/freeplugins/msed.jpg" alt="">
+                        <p>Utility, Imaging</p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>LoadMax</h3>
+                        <img src="./images/plugins/freeplugins/loudmax.jpg" alt="">
+                        <p>Limiter, Maximizer</p>
+                        <img src="" alt="">
+                        <p>Thomas Mundt</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>OldSkoolVerb</h3>
+                        <img src="./images/plugins/freeplugins/oldskoolverb.jpg" alt="">
+                        <p>Reverb, Algorithmic</p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Tube Amp</h3>
+                        <img src="./images/plugins/freeplugins/tubeamp.jpg" alt="">
+                        <p>Distortion, Tube</p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Sound Delay</h3>
+                        <img src="./images/plugins/freeplugins/sounddelay.jpg" alt="">
+                        <p>Delay, Mid-Side</p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>AnSpec</h3>
+                        <img src="./images/plugins/freeplugins/anspec.png" alt="">
+                        <p>Spectral-Analyzer</p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Tripple EQ 4</h3>
+                        <img src="./images/plugins/freeplugins/trippleeq4.jpg" alt="">
+                        <p></p>
+                        <img src="" alt="">
+                        <p>Voxengo</p>
+                    </a>
+                </li>
             </ul>
         </section>
 
-        <section>
+        <section class="plugins">
             <h2>Popular This Week</h2>
             <ol>
                 <li>
                     <a href="">
                         <h3>Serum</h3>
-                        <img src="" alt="Serum logo">
+                        <img src="./images/plugins/popular/serum.jpg" alt="Serum logo">
                         <p>Xfer Records</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>Pigments 3</h3>
-                        <img src="" alt="Pigments 3 logo">
+                        <img src="./images/plugins/popular/pigments3.jpg" alt="Pigments 3 logo">
                         <p>Arturia</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>RC-20 Retro Color</h3>
-                        <img src="" alt="RC-20 Retro Color logo">
+                        <img src="./images/plugins/popular/rc20.jpg" alt="RC-20 Retro Color logo">
                         <p>Xln Audio</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <h3>RC-20 Retro Color</h3>
-                        <img src="" alt="LFO Tool interface image">
+                        <h3>LFOTool</h3>
+                        <img src="./images/plugins/popular/lfotool.jpg" alt="LFO Tool interface image">
                         <p>Xfer Records</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>V collection 8</h3>
-                        <img src="" alt="V Collection 8 logo">
+                        <img src="./images/plugins/popular/vcollection8.jpg" alt="V Collection 8 logo">
                         <p>Arturia</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>OTT</h3>
-                        <img src="" alt="OTT interface image">
+                        <img src="./images/plugins/popular/ott.jpg" alt="OTT interface image">
                         <p>Xfer Records</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <h3>OTT</h3>
-                        <img src="" alt="Analog Lab 5 logo">
+                        <h3>Analog Lab V</h3>
+                        <img src="./images/plugins/popular/analoglabv.jpg" alt="Analog Lab 5 logo">
                         <p>Arturia</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>Ozone 9 Advanced</h3>
-                        <img src="" alt="Ozone 9 Advanced logo">
+                        <img src="./images/plugins/popular/ozone9a.jpg" alt="Ozone 9 Advanced logo">
                         <p>iZotope</p>
                     </a>
                 </li>
@@ -158,73 +259,73 @@
             <a href="">view all</a>
         </section>
 
-        <section>
+        <section class="more">
             <h2>More Software</h2>
             <ul>
                 <li>
                     <a href="">
                         <h3>instruments</h3>
-                        <img src="" alt="a keyboard">
+                        <img src="./images/plugins/moresoftware/instruments.jpg" alt="a keyboard">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>effects</h3>
-                        <img src="" alt="synthesizer rack">
+                        <img src="./images/plugins/moresoftware/effects.jpg" alt="synthesizer rack">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>eq</h3>
-                        <img src="" alt="equalizer plugin">
+                        <img src="./images/plugins/moresoftware/eq.jpg" alt="equalizer plugin">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>delay</h3>
-                        <img src="" alt="delay plugin">
+                        <img src="./images/plugins/moresoftware/delay.jpg" alt="delay plugin">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>reverb</h3>
-                        <img src="" alt="churchhall">
+                        <img src="./images/plugins/moresoftware/reverb.jpg" alt="churchhall">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>samples</h3>
-                        <img src="" alt="drumpad">
+                        <img src="./images/plugins/moresoftware/samplers.jpg" alt="drumpad">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>mastering</h3>
-                        <img src="" alt="computer visualized audiowaves">
+                        <img src="./images/plugins/moresoftware/mastering.jpg" alt="computer visualized audiowaves">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>distortion</h3>
-                        <img src="" alt="distortion plugin">
+                        <img src="./images/plugins/moresoftware/distortion.jpg" alt="distortion plugin">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>compressor</h3>
-                        <img src="" alt="compressor plugin">
+                        <img src="./images/plugins/moresoftware/compressor.jpg" alt="compressor plugin">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>vocal compressing</h3>
-                        <img src="" alt="computer visualized vocal cuts">
+                        <img src="./images/plugins/moresoftware/vocal.jpg" alt="computer visualized vocal cuts">
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <h3>drums</h3>
-                        <img src="" alt="drums">
+                        <img src="./images/plugins/moresoftware/drums.jpg" alt="drums">
                     </a>
                 </li>
             </ul>

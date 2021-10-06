@@ -120,13 +120,8 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
 - Ik heb veel vragen gesteld over de structuur van mijn HTML. Die klopt nu na de feedback bijna volledig. 
   Er missen alleen nog een paar afbeeldingen.
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
@@ -154,19 +149,18 @@ samen met je groepje opstellen
 | Rick           | Esther             | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
 | Een a naast een| header animatie    | en ik dit    | en dan ik dat    |
-| h3 plaatsen    | dit als er tijd i= | nog een punt | dit wil ik zeker |
-|zonder container| ...               | ...          | ...              |
+| h3 plaatsen    | ...                | nog een punt | dit wil ik zeker |
+|zonder container| ...                | ...          | ...              |
 | &              |
 |order veranderen|
 | van li's items |
+| &              |
+| scrollbare ul  | 
+| snapt niet.    |
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik was de enige aanwezig bij het voortgangsgesprek. Hierdoor ben ik met alles in het bovenstaande lijstje geholpen.
+  Het naast elkaar plaatsen van elementen, de order van li's veranderen en een de ul laten scrollen.
 
 </details>
 
@@ -180,30 +174,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Bevindingen voor gebruik met toetsenbord
+- Zonder het hamburger-menu te hebben uitgeklapt doorloop je met tab alle links die daar in staan. Dit zou niet moeten als hij is ingeklapt.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ik weet nog niet hoe ik dit fix.
 
+#### Bevindingen na testen met slecht zicht en parkinson
+- Optie om font size groter te maken. Dit maakt het in het algemeen voor slechtzienden makkelijker om de website te gebruiken.
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+- Grijze teksten donkerder maken voor een beter contrast.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+- Je zou besturing door middel van spraak kunnen toepassen bij parkinson.
 
+Ik weet hoe ik dit kan doen (behalve de spraakbesturing voor parkinson), maar ik ga mijn website responsive maken dus ik laat dit even links liggen.
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Bevindingen na het gebruik van een narrator
+- Narrator leest koppen en tekst niet goed voor (maar dit kwam omdat ik de besturing niet goed had doorgelopen).
+- Bij de app advertentie op de home-page zei de narrator niet wat de button zou doen, namelijk het sluiten van de advertentie.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Door middel van een aria-label leest de narrator de close-button nu goed voor.
 
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -213,7 +204,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
@@ -233,11 +224,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- Mijn geheugen is even verfrist. Ik moet gewoon "@media only screen and (min-width: "breedte van het breakpoint") {}" gebruiken.
 </details>
 
 
@@ -246,7 +233,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
