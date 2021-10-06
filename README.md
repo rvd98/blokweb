@@ -242,12 +242,12 @@ De website responsive maken ging deels goed. Ik zeg deels omdat ik maar één va
 Ik ben wel trots op een ol die ik op klein scherm in één lange lijst van 10 heb en op groot scherm twee lijstjes van 5. En ook over de responiveness van de cards bij de sectie tips & tutials ben ik trots.
 
 De lijst:
-<img src="images/langelijst.jpg" alt="lijst van 10">
-<img src="images/tweelijsten.jpg" alt="twee lijstjes van 5 naast elkaar">
+<img src="images/langelijst.png" alt="lijst van 10">
+<img src="images/tweelijsten.png" alt="twee lijstjes van 5 naast elkaar">
 
 Ik ben minder trots op de tweede pagina: de plugin-pagina. Door een slechte planning, gebrek aan motivatie en het onderschatten van de hoeveelheid werk dat het is, heb ik het niet afgekregen.
 
-<img src="images/plugins_onafgemaakt.jpg" alt="schermopname van onafgemaakte plugin pagina">
+<img src="images/plugins_onafgemaakt.png" alt="schermopname van onafgemaakte plugin pagina">
 
 ### Screenshot(s)
 
