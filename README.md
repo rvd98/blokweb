@@ -242,12 +242,12 @@ De website responsive maken ging deels goed. Ik zeg deels omdat ik maar één va
 Ik ben wel trots op een ol die ik op klein scherm in één lange lijst van 10 heb en op groot scherm twee lijstjes van 5. En ook over de responiveness van de cards bij de sectie tips & tutials ben ik trots.
 
 De lijst:
-<img src="./images/langelijst" alt="lijst van 10">
-<img src=".images/tweelijsten" alt="twee lijstjes van 5 naast elkaar">
+<img src="images/langelijst" alt="lijst van 10">
+<img src="images/tweelijsten" alt="twee lijstjes van 5 naast elkaar">
 
 Ik ben minder trots op de tweede pagina: de plugin-pagina. Door een slechte planning, gebrek aan motivatie en het onderschatten van de hoeveelheid werk dat het is, heb ik het niet afgekregen.
 
-<img src=".images/plugins_onafgemaakt" alt="schermopname van onafgemaakte plugin pagina">
+<img src="images/plugins_onafgemaakt" alt="schermopname van onafgemaakte plugin pagina">
 
 ### Screenshot(s)
 
@@ -266,8 +266,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. How to Hide the Scrollbar in CSS by Jamie Juviler. Scrollbar verbergen maar wel functionaliteit behouden: https://blog.hubspot.com/website/hide-scrollbar-css
+2.  Gridbyexample. Hier kan je bekijken hoe bepaalde voorbeeld-grids in elkaar zitten qua code: https://gridbyexample.com/examples/example5/
+3. css-tricks.com A Guide To Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. DLO opdrachten.
 
 </details>
