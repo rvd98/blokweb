@@ -18,13 +18,16 @@ function klapIn(){
     document.body.classList.remove("toonNav");
 }
 mainButton.addEventListener("click", klapIn);
+
 // CLOSING THE APP ADVERTISEMENT
 var AppAdKruisje = document.querySelector(".app button");
 var AppSection = document.querySelector(".app");
 
-AppAdKruisje.addEventListener("click", sluitAdvertentie);
+if (AppAdKruisje != null) {
+    AppAdKruisje.addEventListener("click", sluitAdvertentie);
 
-function sluitAdvertentie() {
-    AppSection.remove();
+    function sluitAdvertentie() {
+        AppSection.remove();
+    }    
 }
 

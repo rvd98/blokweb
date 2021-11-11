@@ -269,6 +269,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 1. How to Hide the Scrollbar in CSS by Jamie Juviler. Scrollbar verbergen maar wel functionaliteit behouden: https://blog.hubspot.com/website/hide-scrollbar-css
 2.  Gridbyexample. Hier kan je bekijken hoe bepaalde voorbeeld-grids in elkaar zitten qua code: https://gridbyexample.com/examples/example5/
 3. css-tricks.com A Guide To Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-4. DLO opdrachten.
-
+4. MDN: Aria Label: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute
+5. MDN: text-transform: om teksten in 'uppercase' te zetten: https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+6. CSS-gradient: https://cssgradient.io/
+7. DLO opdrachten: dlo.mijnhva.nl
 </details>
