@@ -70,7 +70,6 @@ inlogscherm splice
 <img src="images/breakdown_plugins2.png" alt="2 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 <img src="images/breakdown_plugins3.png" alt="3 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 <img src="images/breakdown_plugins4.png" alt="4 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
-<img src="images/breakdown_plugins5.png" alt="5 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 <img src="images/breakdown_plugins6.png" alt="6 van de 6 afbeeldingen van de breakdown van het plugin-scherm">
 
 ### navigatie: 
@@ -101,8 +100,7 @@ Ik heb tot nu toe alleen de HTML geschreven, maar veel afbeeldingen ontbreken no
 Ik ben nog nergens tegenaan gelopen, omdat ik nog niet aan het CSS bestand ben begonnen.
 
 #### Screenshots HTML
-<img src="images/voortgang1-screenshot1.png" width="375px" alt="HTML home-page">
-<img src="images/voortgang1-screenshot2.png" width="375px" alt="HTML plugin-page">
+Ik heb deze screenshots even weggehaald omdat ik anders over mijn limiet aan afbeeldingen zit voor github.
 
 Ik probeer na het inleveren van dit document om 18:00 (19-09-21) nog aan de CSS te beginnen.
 Dus wellicht heb ik morgen ook al wat gestijld.
@@ -233,7 +231,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details open>
+<details>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
@@ -255,9 +253,31 @@ hier screenshot(s) van je eindresultaat
 
 </details>
 
+## Herkansing
+
+<details open>
+<summary>uitwerken voor eindgesprek</summary>
+
+### Stand van zaken
+De website responsive maken ging goed.
+
+Bij het homescherm ben ik trots op een ol die ik op klein scherm in één lange lijst van 10 heb en op groot scherm twee lijstjes van 5. En ik ben ook trots op de responiveness van de cards bij de sectie 'tips + tutials'.
+
+Bij de plugins pagina vond ik de delen: 'FX Collection 2' en 'More Software' het best gelukt. Beiden heb ik gemaakt door middel van een grid.
 
 
+### Screenshot(s)
+<img src="images/homescreen.png" alt="homescreen mobiel">
+<img src="images/homescreen2.png" alt="homescreen ipad">
+<img src="images/homescreen3.png" alt="homescreen desktop">
+<img src="images/pluginscreen.png" alt="pluginscreen mobiel">
+<img src="images/pluginpagina2.png" alt="pluginscreen ipad">
+<img src="images/pluginpagina3.png" alt="pluginscreen ipad">
+<img src="images/pluginpagina4.png" alt="pluginscreen desktop">
+<img src="images/pluginpagina-menu.png" alt="pluginscreen desktop">
 
+
+</details>
 
 ## Bronnenlijst
 
@@ -273,4 +293,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 5. MDN: text-transform: om teksten in 'uppercase' te zetten: https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
 6. CSS-gradient: https://cssgradient.io/
 7. DLO opdrachten: dlo.mijnhva.nl
+8. css-tricks.com An Introduction to the 'fr'CSS unit https://css-tricks.com/introduction-fr-css-unit/
+9. MDN: filter: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 </details>

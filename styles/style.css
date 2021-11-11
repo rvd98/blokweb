@@ -74,11 +74,11 @@ header button:active {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
   background-color:var(--header-color);
-  height: 667px;
   width: 250px;
   margin-right: 20em;
 
@@ -95,8 +95,10 @@ body.toonNav main {
 }
 
 nav > a {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  grid-template-rows: 2fr;
+  grid-column-gap: 1em;
   text-decoration: none;
   padding: 1.2em;
   color:var(--grey1);
@@ -104,11 +106,15 @@ nav > a {
 }
 
 nav a h2 {
+  grid-column: 2;
+  grid-row: 1;
   color:var(--font-white);
   font-size: 1.3em;
 }
 
 nav a img {
+  grid-column: 1;
+  grid-row: 1 / 3;
   order: -1;
   width: 3em;
   border: solid 3px var(--grey1);
@@ -116,7 +122,12 @@ nav a img {
   margin-right: .8em;
 }
 
-nav ul:first-of-type {
+nav p {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+nav ul {
   margin-bottom: 4em;
 }
 nav ul li {
@@ -660,8 +671,6 @@ nav li a {
 
 
 
-
-
 /*####################################
 ### PLUGINS SECTION 2: HIGHLIGHT ####
 ####################################*/
@@ -675,10 +684,12 @@ nav li a {
 .highlight a {
   text-decoration: none;
   color: var(--font-black);
+}
+
+.highlight article {
   display: flex;
   flex-flow: column nowrap;
 }
-
 
 .highlight h1 {
   font-size: 1.3em;
@@ -690,6 +701,8 @@ nav li a {
   font-weight: 400;
   order: -1;
   margin-bottom: .2em;
+  color: var(--grey4);
+
 }
 
 .highlight h3 {
@@ -721,6 +734,10 @@ nav li a {
   background-color: var(--header-color);
   color: var(--background-color);
   transition: 0s;
+}
+
+.highlight img {
+  max-width: 100%;
 }
 
 
@@ -1027,27 +1044,35 @@ footer li:nth-of-type(3) img {
   width: 1.1em;
 }
 
+
+
+
 @media only screen and (min-width: 480px) {
   .hero {
     padding: 0 3.7em 0 3.7em;
   }
 
+
   .new, .popular {
     padding: 1.2em 3.7em;
   }
+
 
   .app {
     margin: 1.2em 3.7em;
     height: 24.75em;
   }
 
+
   .explore {
     margin: 3em 3.7em 5em 3.7em;
   }
 
+
   .tutorials {
     padding: 3em 3.7em 2em 3.7em;
   }
+
 
   .tips {
     margin: 1.2em 3.7em;
@@ -1055,98 +1080,116 @@ footer li:nth-of-type(3) img {
 }
 
 
+
+
 @media only screen and (min-width: 768px) {
   header {
     height: auto;
-    justify-content: space-between;
+    justify-content: left;
   }
-
   header button {
     display: none;
   }
-
-  header nav {
+  nav {
     position: relative;
     transform: none;
-    background-color: var(--accent-red);
     display: flex;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 3.5em;
     gap: 1em;
     align-items: center;
+    justify-content:flex-end;
     flex-direction: row-reverse;
+    margin: 0;
     /* tegen deze zeggen dat hij mag groeien */
   }
 
-  header nav ul {
-    display: flex;
+  nav > a {
     align-items: center;
-    gap: 1em;
-    /* bij de nav ul's en a de order veranderen */
+    position: absolute;
+    right: 0;
+    display: block;
   }
 
-  nav ul:first-of-type {
+  nav a h2, nav a p {
+    display: none;
+  }
+  nav a img {
+    width: 1.7em;
+    border: solid 2px var(--grey1);
+    margin: 0;
+  }
+   nav ul {
     margin-bottom: 0;
+    display: flex;
+    gap: 1em;
+    flex-basis: auto;
   }
-
-  header nav ul li {
+  nav ul:nth-last-child() {
+    align-self: flex-end;
+  }
+  nav ul li {
     flex-shrink: 0;
     margin: 0;
   }
-
-  header nav ul a {
-    background-color: aqua;
+ 
+  .hide-on-desktop {
+    display: none;
   }
+
+
   header > a:first-of-type {
     order: -1;
   }
-
   header div {
     display: none;
   }
-  
+
 
   .hero h1 {
     font-size: 3em;
   }
 
+
   .new h2 {
     font-size: 1.8em;
   }
 
+
   .app {
     height: 26.25em;
   }
-
   .app h3 {
     font-size: 1.7em;
     margin: 0 auto .8em auto;
   }
+
 
   .popular ol {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2em;
   }
+
+
   .explore {
     padding: 3.9em 2em 4.9em 2em;
   }
   .explore h2 {
     font-size: 1.8em;
   }
-  
+
+
   .tutorials h2 {
     font-size: 1.8em;
     margin-bottom: 1.3em;
   }
-
   /*hulpbron: https://gridbyexample.com/examples/example5/: */ 
   .tutorials a {
     display: grid;
     grid-template-columns: 18.75em 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  
   .tutorials h2 {
     font-size: 1.8em;
   }
@@ -1156,14 +1199,12 @@ footer li:nth-of-type(3) img {
     grid-column: 1;
     grid-row: 1 / 3;
   }
-
   .tutorials h3 {
     font-size: 1.3em;
     margin-top: 1.2em;
     grid-column: 2;
     grid-row: 1;
   }
-
   .tutorials p {
     grid-column: 2;
     grid-row: 2;
@@ -1171,34 +1212,74 @@ footer li:nth-of-type(3) img {
     margin-bottom: 0em
   }
 
+
   .announcement {
     margin-bottom: 1.2em;
   }
   .announcement h2 {
     font-size: 1.8em;
   }
-
   .announcement p:nth-of-type(2) {
     font-size: 1.3em;
   }
+
 
   .tips {
     max-width: 30em;
     margin: 0 auto;
   }
 
+
+  .highlight h1 {
+    font-size: 1.8em;
+  }
+
+
   .more ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media only screen and (min-width: 992px) {
 
+
+@media only screen and (min-width: 962px) {
+  .highlight a {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+  }
+  .highlight article {
+    grid-column: 1;
+  }
+  .highlight h1 {
+    text-align: left;
+  }
+  .highlight h2 {
+    text-align: left;
+  }
+  .highlight h3 {
+    text-align: left;
+  }
+  .highlight h3+p {
+    text-align: left;
+  }
+  .highlight img {
+    grid-column: 2;
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 1320px) {
 
-  .new, .popular, .explore, .tutorials, .announcement, .tips {
+
+@media only screen and (min-width: 992px) {
+  .more ul {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+
+
+@media only screen and (min-width: 1320px) {
+  .new, .popular, .explore, .announcement {
     max-width: 1320px;
     margin: 0 auto;
   }
@@ -1207,4 +1288,17 @@ footer li:nth-of-type(3) img {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .explore {
+    max-width: 1200px;
+    margin: 0 auto 4em auto;
+  }
+}
+
+@media only screen and (min-width: 1402px) {
+  .highlight, .free, .plugins, .more {
+    max-width: 1402px;
+    margin: 0 auto;
+  }
+
 }
